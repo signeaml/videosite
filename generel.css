@@ -1,0 +1,71 @@
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+
+  aspect-ratio: 16 / 9;
+}
+h1 {
+  text-align: center;
+  font-size: 90px;
+
+  font-family: "Playfair", serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+
+  font-family: "Playfair", serif;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Playfair", serif;
+}
+footer {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Playfair", serif;
+  padding-top: 30px;
+}
+body {
+  margin: 100px;
+}
+
+.grid_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(128, 128, 128, 0.184);
+}
+.grid_billeder img {
+  max-height: 400px;
+  width: auto;
+  padding: 20px;
+}
+.overskrift {
+  background-color: rgba(128, 128, 128, 0.184);
+}
+
+.overlay-text {
+  position: absolute;
+  transform: translate(8%, 5%);
+  text-align: center;
+  color: white;
+  font-size: 85px;
+  font-family: "Black Han Sans", sans-serif;
+}
+.overlay-text p {
+  background-color: rgba(128, 128, 128, 0.752);
+  border-radius: 20%;
+  padding: 20px;
+}
